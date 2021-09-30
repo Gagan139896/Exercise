@@ -31,7 +31,6 @@ print(password.is_enabled()) #return true/false
 password.send_keys("Crochet@786")
 driver.find_element_by_xpath("//div[@class='login_box_inner']/form[2]/div[4]/div/div[2]/input").click()
 time.sleep(2)
-
 funds = driver.find_element_by_xpath("//a[@aria-current='page']")
 
 if funds.is_displayed():
